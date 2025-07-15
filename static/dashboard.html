@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DDoS Monitoring Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-container fade-in">
+        <h1 class="dashboard-title">DDoS Monitoring Dashboard</h1>
+        <div class="dashboard-cards">
+            <div class="card" id="card-requests">
+                <div class="card-label">HTTP Requests</div>
+                <div class="card-value" id="requests">0</div>
+            </div>
+            <div class="card" id="card-time">
+                <div class="card-label">Elapsed Time</div>
+                <div class="card-value" id="elapsed">0s</div>
+            </div>
+            <div class="card" id="card-status">
+                <div class="card-label">Server Status</div>
+                <div class="card-value status-indicator active" id="status">Active</div>
+            </div>
+        </div>
+        <div class="chart-section">
+            <canvas id="requestsChart"></canvas>
+        </div>
+        <div class="dashboard-actions">
+            <button id="startBtn" class="action-btn">Start Simulation</button>
+            <button id="stopBtn" class="action-btn">Stop Simulation</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
