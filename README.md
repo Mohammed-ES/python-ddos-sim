@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Chart.js-4.x-purple?logo=chartdotjs&style=for-the-badge" alt="Chart.js">
 </div>
 
-<h1 align="center">python-ddos-tool</h1>
+<h1 align="center">python-ddos-sim</h1>
 <p align="center"><b>Educational DDoS Simulation Tool</b></p>
 
 <div align="center">
@@ -88,8 +88,8 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Mohammed-ES/python-ddos-tool.git
-   cd python-ddos-tool
+   git clone https://github.com/Mohammed-ES/python-ddos-sim.git
+   cd python-ddos-sim
    ```
 2. **Install dependencies:**
    ```bash
@@ -140,7 +140,7 @@ python ddos_tool.py --url http://127.0.0.1:5000 --threads 20 --duration 30
 ## 🗂 Project Structure
 
 ```text
-python-ddos-tool/
+python-ddos-sim/
 ├── ddos_tool.py         # Main DDoS simulation script
 ├── test_server.py       # Flask test server
 ├── requirements.txt     # Python dependencies
@@ -201,7 +201,7 @@ python-ddos-tool/
   ```bash
   python test_server.py
   ```
-  (The server starts, you can then launch the DDoS tool and open the dashboard)
+  (The server starts. You can then launch the DDoS tool and open the dashboard)
 
 ### `dashboard.html`
 
