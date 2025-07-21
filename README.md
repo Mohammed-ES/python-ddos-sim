@@ -225,13 +225,6 @@ Contributions are welcome! Please open issues or submit pull requests for improv
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-
 ## 🔗 Related Resources
 
 - [OWASP: Denial of Service Attacks](https://owasp.org/www-community/attacks/Denial_of_Service)
